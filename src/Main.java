@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 13676; // стоимость билета
-        int y = 20; // стоимость одной бонусной мили
-        int z = x / y; // количество бонусных миль за купленный билет
-        System.out.println("За купленный билет начислено " + z + " миль(я/и).");
+        int ticket_price = 13676; // стоимость билета
+        int mile_price = 20; // стоимость одной бонусной мили
+        int bonus_miles = ticket_price / mile_price; // количество бонусных миль за купленный билет
+        System.out.println("За купленный билет начислено " + bonus_miles + " миль(я/и).");
     }
 }
